@@ -5,10 +5,10 @@ import './App.css';
 import FormReducer from './ReducerFolder/FormReducer';
 
 const initialState ={
-  firstName: "Oluwatoyin",
-  lastName: "Olubayo",
-  email: "toyin95.olubayo@gmail.com",
-  password: "Ifeoluwa@23",
+  firstName: "",
+  lastName: "",
+  email: "",
+  password: "",
 }
 
 function App() {
