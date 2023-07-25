@@ -72,6 +72,7 @@ function App() {
       {showInput === 2 && <button onClick={showNextPage} className='button'>Next</button>}
 
       {showInput === 3 && (
+        
         <div className='pContainer'>
           <p>{state.firstName}</p>
           <p>{state.lastName}</p>
